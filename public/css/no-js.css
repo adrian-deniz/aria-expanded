@@ -1,0 +1,20 @@
+button {
+    display: none;
+}
+
+ul {
+    transition: 0ms;
+    flex-direction: row;
+    visibility: visible;
+    display: flex;
+    column-gap: 20px;
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+    width: 100vw;
+    height: 64px;
+    background-color: #f1f3f4;
+    align-items: center;
+    margin: 0;
+}
+

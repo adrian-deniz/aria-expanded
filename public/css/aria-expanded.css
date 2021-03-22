@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    display: none;
+    padding: 0;
+    margin: 10px;
+}
+
+a {
+    color: #5f6368;
+    font-size: 20px;
+    font-family: system-ui;
+    font-weight: bold;
+    text-decoration: none;
+    outline-color: #5f6368;
+}
+
+li {
+    padding-left: 20px;
+}
+
+aria-expanded {
+    display: flex;
+    justify-content: center;
+}
+
+    ul {
+        list-style: none;
+        background-color: #f1f3f4;
+        height: 100%;
+        width: 0px;
+        position: fixed;
+        transition: 500ms;
+        transition-property: width, visibility;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        overflow-x: hidden;
+        padding: 60px 0 0 0 ;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        visibility: hidden;
+        margin: 0;
+        justify-content: initial;
+    }
+
+    button {
+       position: relative; 
+       z-index: 2;
+       background-color: transparent;
+       border-style: none;
+       cursor: pointer;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       border-radius: 100%;
+       width: 36px;
+       height: 36px;
+    }
+
+    aria-expanded {
+        justify-content: initial;
+
+    }
+
+    aria-expanded.responsive ul {
+        width: 250px;
+        visibility: visible;
+    }
+
+    button:first-child:active, button:first-child:focus, button:first-child:hover {
+    outline: none;
+    background-color: #e1e3e6;
+    }
+
+
+
+
+
+    
+
