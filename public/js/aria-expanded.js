@@ -87,7 +87,3 @@ export class AriaExpanded extends HTMLElement {
         });
     } 
 }
-
-const booger = () => {
-    
-}
