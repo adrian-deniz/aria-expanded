@@ -5,14 +5,14 @@ export class AriaExpanded extends HTMLElement {
 
     constructor() {
         super();
-        this.method = this.ElementConstructor();
+        this.method = this.ElementConstructor(this);
     }
 
     attributeChangedCallback() {
         this.method.addOrRemoveAccessibilityKeyboardEvents();
     }
 
-    ElementConstructor = function(element = this) {
+    ElementConstructor = function(element) {
         const customElement = element;
         const button = customElement.querySelector("button");
         const focusableElements = customElement.querySelectorAll('a, button, input, textarea, select, details, [tabindex]:not([tabindex="-1"])');
