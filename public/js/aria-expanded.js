@@ -2,17 +2,17 @@
 
 export class AriaExpanded extends HTMLElement {
     static get observedAttributes() { return ["class"]; }  
-
+    
     constructor() {
         super();
-        this.method = this.ElementConstructor(this);
+        this.method = this.createElement(this);
     }
 
     attributeChangedCallback() {
         this.method.addOrRemoveAccessibilityKeyboardEvents();
     }
 
-    ElementConstructor = function(element) {
+    createElement = function(element) {
         const customElement = element;
         const button = customElement.querySelector("button");
         const focusableElements = customElement.querySelectorAll('a, button, input, textarea, select, details, [tabindex]:not([tabindex="-1"])');
@@ -76,8 +76,6 @@ export class AriaExpanded extends HTMLElement {
                 lastFocusableElement.removeEventListener("keydown", lastFocusableElementToFirstFocusableElement);
             }
         }
-      
-     
       
         button.setAttribute("aria-expanded", "false");
         button.addEventListener("click", updateAttributes);
