@@ -1,17 +1,18 @@
-button {
+aria-expanded button {
     display: none;
 }
 
-li {
+aria-expanded li {
     padding: 0px;
 }
 
-ul {
+aria-expanded ul {
     column-gap: 40px;
     flex-direction: row;
     height: 64px;
     justify-content: center;
     padding: 0px;
+    position: relative;
     transition: 0ms;
     visibility: visible;
     width: 100vw;
