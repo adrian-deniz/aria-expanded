@@ -12,7 +12,7 @@ keyboard accessible navigation
 - Shift + Tab
 - Escape
 
-Dynamically adds `aria-expanded="false"` to button element \ 
+Dynamically adds `aria-expanded="false"` to button element <br /> 
 Onclick event added to buttom element to update `aria-expanded` value
 
 ## Attributes
