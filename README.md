@@ -12,7 +12,7 @@ keyboard accessible navigation
 - Shift + Tab
 - Escape
 
-Dynamically add `aria-expanded="false"` to button element 
+Dynamically adds `aria-expanded="false"` to button element 
 
 ## Attributes
 
