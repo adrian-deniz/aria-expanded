@@ -28,14 +28,19 @@ show-close-icon | Calendar close icon visibility | Icon is visible | Icon is hid
 Usage examples:
 
    ```html
-    <wc-datepicker init-date='28.12.2005' sunday-first>
-      <input type='text'>
-    </wc-datepicker>
+    <responsive-nav data-onclick-class="responsive" class="test">
+        <nav> 
+            <button> 
+                <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"/>
+                    <path fill="#5f6368" d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                </svg>
+            </button> 
+            <ul>
+                <button>Click Me</button>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </responsive-nav>
    ```
-
-   ```html
-    <wc-datepicker init-date='current' persist-on-select>
-      <input type='text'>
-    </wc-datepicker>
-   ```
-
