@@ -14,7 +14,9 @@ keyboard accessible navigation
 
 Dynamically adds `aria-expanded="false"` to button element <br /> 
 
-Onclick event added to buttom element to update `aria-expanded` value
+Onclick event added to buttom element to update `aria-expanded` value <br />
+
+Onclick event added to buttom element to update responsive-nav elements class list
 
 ## Attributes
 
