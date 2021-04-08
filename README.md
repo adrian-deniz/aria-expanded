@@ -9,6 +9,9 @@ Live demo available here.
 
 ## Attributes
 
+- keyboard accessible navigation (tabindex)
+
+
 Currently component has only one custom attribute that can be assigned a value in the HTML tag:
 
 Name               |Type     |Description                                      |Default value
