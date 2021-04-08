@@ -13,6 +13,7 @@ keyboard accessible navigation
 - Escape
 
 Dynamically adds `aria-expanded="false"` to button element 
+Onclick event added to buttom element to update `aria-expanded` value
 
 ## Attributes
 
