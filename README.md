@@ -1,6 +1,6 @@
 # responsive-nav
 
-responsive-nav is a stand-alone vanilla JS web component that does not use shadow DOM. The component wraps a nav element with a nested button element and ul element with nested focusable elements that adds accessibility features.
+responsive-nav is a stand-alone vanilla JS web component that does not use shadow DOM. The component wraps a nav element to add accessibility features.
 
 Live demo available here.
 
