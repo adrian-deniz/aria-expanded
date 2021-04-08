@@ -15,17 +15,7 @@ Name               |Type     |Description                                      |
 -------------------|---------|-------------------------------------------------|--------------
 data-onclick-class |String   |Class that is added or removed by onclick event  |None
 
-
-Following component attributes are boolean attributes, also known as valueless attributes. The presence of a boolean attribute in the HTML tag represents the true value, and the absence of the attribute represents the false value:
-
-Name   | Description | if attribute is defined | If attribute is not defined
--------|-------------|-------------------------|----------------------------
-ignore-on-focus | Calendar appearance after the input element gets focus| Calendar won't appear| Calendar appears
-sunday-first | First day of the calendar week | Sunday is first | Monday is first
-persist-on-select | Calendar visibility after the date has been selected | Calendar won't disappear | Calendar disappears
-show-close-icon | Calendar close icon visibility | Icon is visible | Icon is hidden
-
-Usage examples:
+Usage example:
 
    ```html
     <responsive-nav data-onclick-class="responsive" class="test">
