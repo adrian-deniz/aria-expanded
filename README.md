@@ -5,7 +5,7 @@ responsive-nav is a stand-alone vanilla JS web component that does not use shado
 Live demo available here.
 
 ## Features
-keyboard accessible navigation
+**keyboard accessible navigation**
 - Enter
 - Space
 - Tab
