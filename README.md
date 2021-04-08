@@ -6,9 +6,9 @@ Live demo available here.
 
 ## Features
 #### keyboard accessible navigation
--Enter
--Tab/Shift + Tab
--Escape
+- Enter
+- Tab/Shift + Tab
+- Escape
 
 
 ## Attributes
