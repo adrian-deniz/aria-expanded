@@ -11,9 +11,9 @@ Live demo available here.
 
 Currently component has only one custom attribute that can be assigned a value in the HTML tag:
 
-Name               |Type     |Description                             |Unit / Values       |Default value
--------------------|---------|----------------------------------------|---------------------|--------------
-data-onclick-class |  String | Class that is added or removed onclick |                     | None
+Name               |Type     |Description                             |Default value
+-------------------|---------|----------------------------------------|--------------
+data-onclick-class |  String | Class that is added or removed onclick | None
 
 
 Following component attributes are boolean attributes, also known as valueless attributes. The presence of a boolean attribute in the HTML tag represents the true value, and the absence of the attribute represents the false value:
