@@ -11,9 +11,9 @@ Live demo available here.
 
 Currently component has only one custom attribute that can be assigned a value in the HTML tag:
 
-Name            | Type      | Description             | Unit / Values      | Default value
---------------  | --------- | ------------------------| -------------------| --------------
-init-date       | String    | Initial date in the input field | Date in "dd.mm.yyyy" format or<br>"current" to select current date                     | None
+Name                 | Type       | Description                     | Unit / Values       | Default value
+-------------------  | ---------  | --------------------------------|---------------------| --------------
+data-onclick-class   |  String    | Initial date in the input field | Date in "dd.mm.yyyy" format or<br>"current" to select current date                     | None
 
 
 Following component attributes are boolean attributes, also known as valueless attributes. The presence of a boolean attribute in the HTML tag represents the true value, and the absence of the attribute represents the false value:
