@@ -8,20 +8,34 @@
     <title>Aria Expanded</title>
 </head>
 <body>
-    <nav> 
-        <aria-expanded data-onclick-class="responsive" class="test">
+    <responsive-nav data-onclick-class="responsive" class="test">
+        <nav> 
             <button> 
                 <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"/>
                     <path fill="#5f6368" d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
                 </svg>
             </button> 
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-        </aria-expanded>
-     </nav>
+            <ul>
+                <button>Click Me</button>
+                <input type="text">
+                <textarea></textarea>
+                <label for="cars">Choose a car:</label>
+                <select name="cars" id="cars">
+                  <option value="volvo">Volvo</option>
+                  <option value="saab">Saab</option>
+                  <option value="opel">Opel</option>
+                  <option value="audi">Audi</option>
+                </select> 
+                <details>
+                    <summary>Epcot Center</summary>
+                    <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+                </details>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </responsive-nav>
 
      <h1>Blog Post 1</h1>
 

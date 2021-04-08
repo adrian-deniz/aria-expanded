@@ -1,13 +1,12 @@
-aria-expanded button {
+responsive-nav button {
     display: none;
 }
 
-aria-expanded li {
+responsive-nav li {
     padding: 0px;
 }
 
-aria-expanded ul {
-    column-gap: 40px;
+responsive-nav ul {
     flex-direction: row;
     height: 64px;
     justify-content: center;
@@ -16,4 +15,11 @@ aria-expanded ul {
     transition: 0ms;
     visibility: visible;
     width: 100vw;
+}
+
+@media (max-width: 991px) {
+    responsive-nav ul {
+        flex-direction: column;
+        height: 120px
+    }
 }

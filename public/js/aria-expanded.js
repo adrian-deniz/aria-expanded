@@ -1,15 +1,22 @@
 "use strict";
 
-export class AriaExpanded extends HTMLElement {
+export class ResponsiveNav extends HTMLElement {
     static get observedAttributes() { return ["class"]; }  
     
     constructor() {
         super();
         this.method = this.createElement(this);
+        console.log(`constructor`)
+    }
+
+    connectedCallback() {
+        console.log(`connectedCallback`);
     }
 
     attributeChangedCallback() {
+        console.log(`attributeChangedCallback`)
         this.method.addOrRemoveAccessibilityKeyboardEvents();
+        
     }
 
     createElement = function(element) {
