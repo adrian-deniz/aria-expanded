@@ -1,22 +1,26 @@
-# responsive-nav
+# `<responsive-nav>`: The Responsive Navigation Component
 
-responsive-nav is a stand-alone vanilla JS web component that does not use shadow DOM. The component wraps a nav element to add accessibility features.
+Responsive Navigation is a stand-alone vanilla JS web component that does not use shadow DOM. The component wraps a nav element to add accessibility features. 
 
 Live demo available here.
 
+<br />
+
 ## Features
-**keyboard accessible navigation**
+- keyboard accessible navigation
 - Enter
 - Space
 - Tab
 - Shift + Tab
 - Escape
 
-Dynamically adds `aria-expanded="false"` to button element <br /> 
+- Dynamically adds `aria-expanded="false"` to button element 
 
-Onclick event added to buttom element to update `aria-expanded` value <br />
+- Onclick event added to button element to update `aria-expanded` value
 
-Onclick event added to buttom element to update responsive-nav elements class list
+- Onclick event added to button element to update `<responsive-nav>` element class list
+
+<br />
 
 ## Attributes
 
@@ -26,6 +30,8 @@ Currently component has only one custom attribute that can be assigned a value i
 Name               |Type     |Description                                      |Default value
 -------------------|---------|-------------------------------------------------|--------------
 data-onclick-class |String   |Class that is added or removed by onclick event  |None
+
+<br />
 
 Usage example:
 
