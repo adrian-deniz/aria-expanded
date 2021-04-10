@@ -1,4 +1,4 @@
-# `<responsive-nav>`: Responsive Navigation Component
+# \<responsive-nav>  : Responsive Navigation Component
 
 Responsive Navigation is a stand-alone vanilla JS web component that does not use shadow DOM. The component wraps a nav element to add accessibility features. 
 
